@@ -1,16 +1,60 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Landing Page
 
-Currently, two official plugins are available:
+A **static landing page** for Dematerialisation compliance, built with **React**, **Vite**, **Tailwind CSS**, and **JavaScript**.  
+The page is fully responsive, clean, and ready to deploy.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## React Compiler
+- Responsive navigation bar
+- Hero section with CTA
+- Sections explaining dematerialisation, Rule 9B applicability, and services
+- Highlight stripes for important messages
+- Footer with copyright
+- Google Fonts integration
+- Tailwind CSS for styling
+- Mobile-friendly and fast
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the ESLint configuration
+- **React** (JavaScript)
+- **Vite** (bundler, dev server)
+- **Tailwind CSS** (utility-first CSS)
+- **Google Fonts** (Inter & Poppins)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Project Structure
+
+demat-landing/
+│── src/
+│ ├── components/
+│ │ ├── Navbar.jsx
+│ │ ├── Hero.jsx
+│ │ ├── MandatorySection.jsx
+│ │ ├── ApplicabilitySection.jsx
+│ │ ├── ServicesSection.jsx
+│ │ ├── ActNowSection.jsx
+│ │ └── Footer.jsx
+│ ├── App.jsx
+│ └── index.css
+├── index.html
+├── package.json
+└── tailwind.config.js
+
+---
+
+## Setup & Installation
+
+1. Clone the repository:
+   git clone
+   cd landingpage
+
+2. Install dependencies:
+   npm install
+
+3. Start development server:
+   npm run dev
+
+Deployment

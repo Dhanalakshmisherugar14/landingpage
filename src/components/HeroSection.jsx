@@ -25,9 +25,10 @@ export default function Hero() {
           </div>
           
           <div className="flex gap-6 items-center">
-             <button className="bg-gradient-to-r from-blue-600 to-blue-800 hover:from-blue-700 hover:to-blue-900 text-white px-8 py-3.5 rounded-xl font-medium transition-all duration-300 shadow-2xl shadow-blue-500/50 hover:shadow-blue-600/70 hover:-translate-y-1">
-          Book a call
-            </button>
+             <button className="bg-gradient-to-r from-blue-600 to-blue-800 hover:from-blue-700 hover:to-blue-900 text-white px-5 py-2.5 md:px-8 md:py-3.5 rounded-xl font-medium transition-all duration-300 shadow-2xl shadow-blue-500/50 hover:shadow-blue-600/70 hover:-translate-y-1">
+  Book a call
+</button>
+
             <button className="text-gray-700 hover:text-gray-900 font-medium flex items-center gap-2 transition-colors group">
               See how it works <span className="text-lg transition-transform group-hover:translate-x-1">&rsaquo;</span>
             </button>
