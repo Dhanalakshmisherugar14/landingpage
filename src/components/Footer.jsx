@@ -1,0 +1,79 @@
+import React from "react";
+import { EnvelopeIcon } from "@heroicons/react/24/outline";
+import { FaLinkedin, FaTwitter, FaGlobe } from "react-icons/fa";
+import Logo from "../assets/logo.png";
+
+const Footer = () => {
+  return (
+   <footer id="contact" className="w-full bg-[#e6efff] border-t border-blue-200 text-gray-700">
+
+      {/* Main Footer */}
+      <div className="max-w-7xl mx-auto px-6 py-14">
+        <div className="grid md:grid-cols-3 gap-10">
+
+          {/* Logo + About */}
+          <div className="text-center md:text-left">
+            <img src={Logo} alt="Taghash Logo" className="h-12 mb-4 mx-auto md:mx-0" />
+            <p className="text-sm leading-6 text-gray-600">
+              Accreditation and compliance, made simple and secure.
+            </p>
+
+            {/* Social Icons */}
+            <div className="flex gap-4 mt-6 justify-center md:justify-start">
+              <a href="#" className="p-2 rounded-full border border-gray-300 hover:border-blue-500 hover:text-blue-600 transition">
+                <FaLinkedin size={18} />
+              </a>
+              <a href="#" className="p-2 rounded-full border border-gray-300 hover:border-blue-500 hover:text-blue-600 transition">
+                <FaTwitter size={18} />
+              </a>
+              <a href="#" className="p-2 rounded-full border border-gray-300 hover:border-blue-500 hover:text-blue-600 transition">
+                <FaGlobe size={18} />
+              </a>
+            </div>
+          </div>
+
+          {/* Company Links */}
+          <div className="flex justify-center md:justify-center">
+            <div className="text-center md:text-left">
+              <h3 className="font-semibold text-gray-900 mb-4">Company</h3>
+              <ul className="space-y-2 text-sm">
+                <li><a href="#" className="hover:text-blue-600 transition">Home</a></li>
+                <li><a href="#" className="hover:text-blue-600 transition">Why Dematerialisation Is Mandatory Now</a></li>
+                <li><a href="#" className="hover:text-blue-600 transition">Does Rule 9B Apply to Your Company?</a></li>
+                <li><a href="#" className="hover:text-blue-600 transition">Streamlined Dematerialisation Process</a></li>
+                <li><a href="#" className="hover:text-blue-600 transition">Future Today</a></li>
+                <li><a href="#" className="hover:text-blue-600 transition">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+
+          {/* Contact */}
+          <div className="text-center md:text-left md:pl-20">
+            <h3 className="font-semibold text-gray-900 mb-4">Mail Us</h3>
+            <div className="flex items-start gap-2 text-sm justify-center md:justify-start">
+              <EnvelopeIcon className="h-5 text-gray-500" />
+              <p className="text-gray-600">compliance@taghash.com</p>
+            </div>
+          </div>
+
+          {/* Newsletter Input */}
+          
+        </div>
+
+        {/* Bottom Section */}
+        <div className="mt-12 border-t pt-6 flex flex-col md:flex-row justify-between items-center text-gray-600">
+          <p className="text-xs md:text-sm text-center md:text-left">© 2025 taghash Pvt Ltd. All rights reserved.</p>
+
+          <div className="flex gap-6 mt-4 md:mt-0 justify-center text-sm">
+            <a href="#" className="hover:text-blue-600 transition">Privacy</a>
+            <a href="#" className="hover:text-blue-600 transition">Terms</a>
+            <a href="#" className="hover:text-blue-600 transition">Security</a>
+          </div>
+        </div>
+      </div>
+
+    </footer>
+  );
+};
+
+export default Footer;
