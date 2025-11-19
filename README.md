@@ -58,3 +58,4 @@ demat-landing/
    npm run dev
 
 Deployment
+https://taghashh.vercel.app/
