@@ -25,27 +25,27 @@ const Apply = () => {
 
           <ul className="space-y-4 text-gray-700 text-[15px] leading-relaxed">
             <li className="flex items-start gap-3">
-              <CheckCircle className="text-blue-600 mt-0.5" size={20} />
+              <CheckCircle className="text-blue-600 mt-0.5 flex-shrink-0 w-4 h-4 md:w-5 md:h-5" />
               You are not a small company as per Section 2(85).
             </li>
 
             <li className="flex items-start gap-3">
-              <CheckCircle className="text-blue-600 mt-0.5" size={20} />
+              <CheckCircle className="text-blue-600 mt-0.5 flex-shrink-0 w-4 h-4 md:w-5 md:h-5" />
               You are a private holding company.
             </li>
 
             <li className="flex items-start gap-3">
-              <CheckCircle className="text-blue-600 mt-0.5" size={20} />
+              <CheckCircle className="text-blue-600 mt-0.5 flex-shrink-0 w-4 h-4 md:w-5 md:h-5" />
               You are a private subsidiary company, including wholly owned subsidiaries.
             </li>
 
             <li className="flex items-start gap-3">
-              <CheckCircle className="text-blue-600 mt-0.5" size={20} />
+              <CheckCircle className="text-blue-600 mt-0.5 flex-shrink-0 w-4 h-4 md:w-5 md:h-5" />
               You are a Section 8 company with share capital.
             </li>
 
             <li className="flex items-start gap-3">
-              <CheckCircle className="text-blue-600 mt-0.5" size={20} />
+              <CheckCircle className="text-blue-600 mt-0.5 flex-shrink-0 w-4 h-4 md:w-5 md:h-5" />
               You are a private company or body corporate governed by a special Act.
             </li>
           </ul>
