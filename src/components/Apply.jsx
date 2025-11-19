@@ -24,30 +24,32 @@ const Apply = () => {
           </h3>
 
           <ul className="space-y-4 text-gray-700 text-[15px] leading-relaxed">
-            <li className="flex items-start gap-3">
-              <CheckCircle className="text-blue-600 mt-0.5 flex-shrink-0 w-4 h-4 md:w-5 md:h-5" />
-              You are not a small company as per Section 2(85).
+
+            <li className="flex items-center gap-3">
+              <CheckCircle className="text-blue-600 flex-shrink-0 w-4 h-4 md:w-5 md:h-5" />
+              <span>You are not a small company as per Section 2(85).</span>
             </li>
 
-            <li className="flex items-start gap-3">
-              <CheckCircle className="text-blue-600 mt-0.5 flex-shrink-0 w-4 h-4 md:w-5 md:h-5" />
-              You are a private holding company.
+            <li className="flex items-center gap-3">
+              <CheckCircle className="text-blue-600 flex-shrink-0 w-4 h-4 md:w-5 md:h-5" />
+              <span>You are a private holding company.</span>
             </li>
 
-            <li className="flex items-start gap-3">
-              <CheckCircle className="text-blue-600 mt-0.5 flex-shrink-0 w-4 h-4 md:w-5 md:h-5" />
-              You are a private subsidiary company, including wholly owned subsidiaries.
+            <li className="flex items-center gap-3">
+              <CheckCircle className="text-blue-600 flex-shrink-0 w-4 h-4 md:w-5 md:h-5" />
+              <span>You are a private subsidiary company, including wholly owned subsidiaries.</span>
             </li>
 
-            <li className="flex items-start gap-3">
-              <CheckCircle className="text-blue-600 mt-0.5 flex-shrink-0 w-4 h-4 md:w-5 md:h-5" />
-              You are a Section 8 company with share capital.
+            <li className="flex items-center gap-3">
+              <CheckCircle className="text-blue-600 flex-shrink-0 w-4 h-4 md:w-5 md:h-5" />
+              <span>You are a Section 8 company with share capital.</span>
             </li>
 
-            <li className="flex items-start gap-3">
-              <CheckCircle className="text-blue-600 mt-0.5 flex-shrink-0 w-4 h-4 md:w-5 md:h-5" />
-              You are a private company or body corporate governed by a special Act.
+            <li className="flex items-center gap-3">
+              <CheckCircle className="text-blue-600 flex-shrink-0 w-4 h-4 md:w-5 md:h-5" />
+              <span>You are a private company or body corporate governed by a special Act.</span>
             </li>
+
           </ul>
         </div>
 
@@ -58,7 +60,7 @@ const Apply = () => {
         </p>
 
         {/* CTA */}
-         <button className="bg-gradient-to-r from-blue-600 to-blue-800 hover:from-blue-700 hover:to-blue-900 text-white px-9 py-4 rounded-xl font-medium transition-all duration-300 shadow-2xl shadow-blue-500/50 hover:shadow-blue-600/70 hover:-translate-y-1">
+        <button className="bg-gradient-to-r from-blue-600 to-blue-800 hover:from-blue-700 hover:to-blue-900 text-white px-9 py-4 rounded-xl font-medium transition-all duration-300 shadow-2xl shadow-blue-500/50 hover:shadow-blue-600/70 hover:-translate-y-1">
           Confirm Your Status
         </button>
 
