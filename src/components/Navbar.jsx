@@ -8,7 +8,7 @@ const Navbar = () => {
 
   return (
     <nav className="bg-white/70 backdrop-blur-md px-8 py-4 sticky top-0 z-[1000] font-sans shadow-sm">
-      <div className="w-full mx-auto flex justify-between items-center">
+      <div className="w-full max-w-6xl mx-auto flex justify-between items-center">
         {/* Left Side: Logo & Menu */}
         {/* Left Side: Logo */}
         <div className="flex items-center">
@@ -23,18 +23,18 @@ const Navbar = () => {
 
         {/* Center: Desktop Menu */}
         <ul className="hidden md:flex absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 gap-6 list-none m-0 p-0 items-center whitespace-nowrap">
-          <li><a href="#herosection" className="text-gray-500 font-normal text-[0.8rem] transition-colors duration-300 hover:text-blue-700 no-underline">Home</a></li>
-          <li><a href="#why-demat" className="text-gray-500 font-normal text-[0.8rem] transition-colors duration-300 hover:text-blue-700 no-underline">Why Dematerialisation Is Mandatory Now</a></li>
-          <li><a href="#rule9b-check" className="text-gray-500 font-normal text-[0.8rem] transition-colors duration-300 hover:text-blue-700 no-underline">Does Rule 9B Apply to Your Company?</a></li>
-          <li><a href="#demat-process" className="text-gray-500 font-normal text-[0.8rem] transition-colors duration-300 hover:text-blue-700 no-underline">Streamlined Dematerialisation Process</a></li>
-          <li><a href="#act-now" className="text-gray-500 font-normal text-[0.8rem] transition-colors duration-300 hover:text-blue-700 no-underline">Future Today</a></li>
-          <li><a href="#contact" className="text-gray-500 font-normal text-[0.8rem] transition-colors duration-300 hover:text-blue-700 no-underline">Contact</a></li>
+          <li><a href="#herosection" className="text-gray-500 font-normal text-[0.9rem] transition-colors duration-300 hover:text-blue-700 no-underline">Home</a></li>
+          <li><a href="#why-demat" className="text-gray-500 font-normal text-[0.9rem] transition-colors duration-300 hover:text-blue-700 no-underline">Why Demat</a></li>
+          <li><a href="#rule9b-check" className="text-gray-500 font-normal text-[0.9rem] transition-colors duration-300 hover:text-blue-700 no-underline">Rule 9B Applicability</a></li>
+          <li><a href="#demat-process" className="text-gray-500 font-normal text-[0.9rem] transition-colors duration-300 hover:text-blue-700 no-underline"> How It Works</a></li>
+          <li><a href="#act-now" className="text-gray-500 font-normal text-[0.9rem] transition-colors duration-300 hover:text-blue-700 no-underline">Future Today</a></li>
+          <li><a href="#contact" className="text-gray-500 font-normal text-[0.9rem] transition-colors duration-300 hover:text-blue-700 no-underline">Contact</a></li>
         </ul>
 
         {/* Right Side: Button */}
         <div className="hidden md:flex items-center">
             <button className="bg-transparent border border-gray-200 px-6 py-2.5 rounded-lg font-medium text-gray-700 cursor-pointer flex items-center gap-2 transition-all duration-300 text-[0.9rem] hover:border-blue-500 hover:text-blue-600 hover:bg-blue-50 hover:-translate-y-[1px] hover:shadow-md group">
-            Get Accredited Now <span className="text-[1.1rem] transition-transform duration-300 group-hover:translate-x-1">&rarr;</span>
+            Book a Call <span className="text-[1.1rem] transition-transform duration-300 group-hover:translate-x-1">&rarr;</span>
             </button>
         </div>
 
@@ -50,13 +50,13 @@ const Navbar = () => {
       {isOpen && (
         <div className="md:hidden absolute top-full left-0 w-full bg-white shadow-md py-4 px-8 flex flex-col gap-4">
           <a href="#herosection" className="text-gray-500 font-normal text-[0.9rem] transition-colors duration-300 hover:text-blue-700 no-underline" onClick={() => setIsOpen(false)}>Home</a>
-          <a href="#why-demat" className="text-gray-500 font-normal text-[0.9rem] transition-colors duration-300 hover:text-blue-700 no-underline" onClick={() => setIsOpen(false)}>Why Dematerialisation Is Mandatory Now</a>
-          <a href="#rule9b-check" className="text-gray-500 font-normal text-[0.9rem] transition-colors duration-300 hover:text-blue-700 no-underline" onClick={() => setIsOpen(false)}>Does Rule 9B Apply to Your Company?</a>
-          <a href="#demat-process" className="text-gray-500 font-normal text-[0.9rem] transition-colors duration-300 hover:text-blue-700 no-underline" onClick={() => setIsOpen(false)}>Streamlined Dematerialisation Process</a>
+          <a href="#why-demat" className="text-gray-500 font-normal text-[0.9rem] transition-colors duration-300 hover:text-blue-700 no-underline" onClick={() => setIsOpen(false)}>Why Demat</a>
+          <a href="#rule9b-check" className="text-gray-500 font-normal text-[0.9rem] transition-colors duration-300 hover:text-blue-700 no-underline" onClick={() => setIsOpen(false)}>Rule 9B Applicability</a>
+          <a href="#demat-process" className="text-gray-500 font-normal text-[0.9rem] transition-colors duration-300 hover:text-blue-700 no-underline" onClick={() => setIsOpen(false)}>How It Works</a>
           <a href="#act-now" className="text-gray-500 font-normal text-[0.9rem] transition-colors duration-300 hover:text-blue-700 no-underline" onClick={() => setIsOpen(false)}>Future Today</a>
           <a href="#contact" className="text-gray-500 font-normal text-[0.9rem] transition-colors duration-300 hover:text-blue-700 no-underline" onClick={() => setIsOpen(false)}>Contact</a>
-          <button className="bg-transparent border border-gray-200 px-6 py-2.5 rounded-lg font-medium text-gray-700 cursor-pointer flex items-center gap-2 transition-all duration-300 text-[0.9rem] hover:border-blue-500 hover:text-blue-600 hover:bg-blue-50 hover:-translate-y-[1px] hover:shadow-md active:border-blue-500 active:text-blue-600 active:bg-blue-50 active:-translate-y-[1px] active:shadow-md group w-full justify-center">
-            Get Accredited Now <span className="text-[1.1rem] transition-transform duration-300 group-hover:translate-x-1 group-active:translate-x-1">&rarr;</span>
+          <button className="bg-gradient-to-r from-blue-600 to-blue-800 hover:from-blue-700 hover:to-blue-900 text-white px-6 py-2.5 rounded-lg font-medium cursor-pointer flex items-center gap-2 transition-all duration-300 text-[0.9rem] shadow-md hover:shadow-lg hover:-translate-y-[1px] group w-full justify-center">
+            Book a Call <span className="text-[1.1rem] transition-transform duration-300 group-hover:translate-x-1 group-active:translate-x-1">&rarr;</span>
           </button>
         </div>
       )}
