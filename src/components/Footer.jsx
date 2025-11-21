@@ -37,12 +37,12 @@ const Footer = () => {
             <div className="text-center md:text-left">
               <h3 className="font-semibold text-gray-900 mb-4">Company</h3>
               <ul className="space-y-2 text-sm">
-                <li><a href="#" className="hover:text-blue-600 transition">Home</a></li>
-                <li><a href="#" className="hover:text-blue-600 transition">Why Dematerialisation Is Mandatory Now</a></li>
-                <li><a href="#" className="hover:text-blue-600 transition">Does Rule 9B Apply to Your Company?</a></li>
-                <li><a href="#" className="hover:text-blue-600 transition">Streamlined Dematerialisation Process</a></li>
-                <li><a href="#" className="hover:text-blue-600 transition">Future Today</a></li>
-                <li><a href="#" className="hover:text-blue-600 transition">Contact</a></li>
+                <li><a href="#herosection" className="hover:text-blue-600 transition">Home</a></li>
+                <li><a href="#why-demat" className="hover:text-blue-600 transition">Why Demat</a></li>
+                <li><a href="#rule9b-check" className="hover:text-blue-600 transition">Rule 9B Applicability</a></li>
+                <li><a href="#demat-process" className="hover:text-blue-600 transition">How It Works</a></li>
+                <li><a href="#act-now" className="hover:text-blue-600 transition">Future Today</a></li>
+                <li><a href="#contact" className="hover:text-blue-600 transition">Contact</a></li>
               </ul>
             </div>
           </div>
