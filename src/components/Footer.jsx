@@ -1,5 +1,5 @@
 import React from "react";
-import { EnvelopeIcon } from "@heroicons/react/24/outline";
+import { EnvelopeIcon, PhoneIcon } from "@heroicons/react/24/outline";
 import { FaLinkedin, FaTwitter, FaGlobe } from "react-icons/fa";
 import Logo from "../assets/logo.png";
 
@@ -13,7 +13,14 @@ const Footer = () => {
 
           {/* Logo + About */}
           <div className="text-center md:text-left">
-            <img src={Logo} alt="Taghash Logo" className="h-12 mb-4 mx-auto md:mx-0" />
+            <div className="flex-shrink-0 flex items-center cursor-pointer justify-center md:justify-start">
+              <img 
+                src={Logo} 
+                alt="Taghash Logo" 
+                className="h-16 w-auto object-contain" 
+                style={{ imageRendering: '-webkit-optimize-contrast' }}
+              />
+            </div>
             <p className="text-sm leading-6 text-gray-600">
               Accreditation and compliance, made simple and secure.
             </p>
@@ -53,6 +60,10 @@ const Footer = () => {
             <div className="flex items-start gap-2 text-sm justify-center md:justify-start">
               <EnvelopeIcon className="h-5 text-gray-500" />
               <p className="text-gray-600">compliance@taghash.com</p>
+            </div>
+            <div className="flex items-start gap-2 text-sm justify-center md:justify-start mt-2">
+              <PhoneIcon className="h-5 text-gray-500" />
+              <p className="text-gray-600">+91 800 123 4567</p>
             </div>
           </div>
 
