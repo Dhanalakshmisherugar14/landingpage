@@ -33,7 +33,7 @@ const Navbar = () => {
         {/* Right Side: Button */}
         <div className="hidden md:flex items-center">
             <button className="bg-transparent border border-gray-200 px-6 py-2.5 rounded-lg font-medium text-gray-700 cursor-pointer flex items-center gap-2 transition-all duration-300 text-[0.9rem] hover:border-blue-500 hover:text-blue-600 hover:bg-blue-50 hover:-translate-y-[1px] hover:shadow-md group">
-            Book a Call <span className="text-[1.1rem] transition-transform duration-300 group-hover:translate-x-1">&rarr;</span>
+            Connect Now <span className="text-[1.1rem] transition-transform duration-300 group-hover:translate-x-1">&rarr;</span>
             </button>
         </div>
 
