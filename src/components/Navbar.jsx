@@ -7,7 +7,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-white/70 backdrop-blur-md px-8 py-4 sticky top-0 z-[1000] font-sans border-b border-gray-200">
+    <nav className="bg-white/70 backdrop-blur-md px-4 py-1 md:px-8 md:py-4 sticky top-0 z-[1000] font-sans border-b border-gray-200">
       <div className="w-full max-w-6xl mx-auto flex justify-between items-center">
         {/* Left Side: Logo & Menu */}
         {/* Left Side: Logo */}
@@ -15,7 +15,7 @@ const Navbar = () => {
           <img 
             src={logo} 
             alt="Taghash Logo" 
-            className="h-16 w-auto object-contain" 
+            className="h-10 md:h-16 w-auto object-contain" 
             style={{ imageRendering: '-webkit-optimize-contrast' }}
           />
         </div>

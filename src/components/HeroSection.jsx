@@ -4,7 +4,7 @@ import { TriangleAlert } from 'lucide-react';
 
 export default function Hero() {
   return (
-    <section id="herosection" className="bg-white text-gray-900 pt-20 pb-10 relative overflow-hidden font-sans">
+    <section id="herosection" className="bg-white text-gray-900 -mt-4 md:mt-0 pt-0 md:pt-20 pb-10 relative overflow-hidden font-sans">    
       <div className="max-w-[1200px] mx-auto px-8 grid md:grid-cols-2 gap-12 items-center">
         {/* Left Content */}
         <div className="z-10">
