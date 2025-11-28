@@ -18,7 +18,7 @@ const Streamlined = () => {
 
           <p className="text-base text-gray-600 max-w-3xl mx-auto leading-relaxed">
             As an authorised channel partner for <strong>NDML's RTA Division</strong>, we provide reliable,
-            compliance-first support with priority onboarding and streamlined processes for private companies.
+            compliance-first support with priority onboarding and streamlined processes for private companies
           </p>
 
            <button className="mt-8 bg-gradient-to-r from-blue-600 to-blue-800 hover:from-blue-700 hover:to-blue-900 text-white px-9 py-4 rounded-xl font-medium transition-all duration-300 shadow-2xl shadow-blue-500/50 hover:shadow-blue-600/70 hover:-translate-y-1">
@@ -73,19 +73,19 @@ const Streamlined = () => {
             <h3 className="text-xl font-bold text-gray-900 mb-3">Timeline Transparency</h3>
 
             <p className="text-sm text-gray-600 mb-6">
-              We manage the process efficiently and keep you informed at every step.
+              We manage the process efficiently and keep you informed at every step
             </p>
 
             <div className="bg-blue-50 p-6 rounded-lg text-center">
               <p className="text-4xl font-extrabold text-blue-600">15–20</p>
               <p className="text-lg font-semibold text-gray-700 mt-2">Working Days</p>
               <p className="text-xs text-gray-500 mt-1">
-                Typical NSDL onboarding and ISIN activation once documents are submitted.
+                Typical NSDL onboarding and ISIN activation once documents are submitted
               </p>
             </div>
 
             <p className="text-xs text-gray-500 mt-6 text-center">
-              *Timeline is an estimate based on Depository/RTA processing speed.
+              *Timeline is an estimate based on Depository/RTA processing speed
             </p>
           </div>
         </div>

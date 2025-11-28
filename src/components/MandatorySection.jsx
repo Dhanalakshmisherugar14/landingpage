@@ -14,7 +14,7 @@ const MandatorySection = () => {
         {/* Sub-head */}
        <p className="text-gray-500 max-w-3xl mx-auto text-sm md:text-base leading-relaxed mb-16 font-normal">
   Rule 9B makes electronic holding and transfer compulsory for eligible private companies.
-  If Rule 9B applies to your company, you must transition fully to the demat system.
+  If Rule 9B applies to your company, you must transition fully to the demat system
 </p>
 
 
@@ -31,7 +31,7 @@ const MandatorySection = () => {
             </h3>
             <p className="text-gray-600 text-[15px] leading-relaxed">
               All new securities must be issued only in dematerialised form — physical certificates
-              are no longer permitted.
+              are no longer permitted
             </p>
           </div>
 
@@ -45,7 +45,7 @@ const MandatorySection = () => {
             </h3>
             <p className="text-gray-600 text-[15px] leading-relaxed">
               Companies must establish the required systems to convert all existing physical
-              securities into demat.
+              securities into demat
             </p>
           </div>
 
@@ -59,7 +59,7 @@ const MandatorySection = () => {
             </h3>
             <p className="text-gray-600 text-[15px] leading-relaxed">
               Before buybacks, bonus issues, rights issues or private placements, key personnel
-              must hold their securities in demat form.
+              must hold their securities in demat form
             </p>
           </div>
 
@@ -73,7 +73,7 @@ const MandatorySection = () => {
             </h3>
             <p className="text-gray-600 text-[15px] leading-relaxed">
               Physical transfers are prohibited. Shareholders must dematerialise to transfer
-              or subscribe to any new securities.
+              or subscribe to any new securities
             </p>
           </div>
         </div>
@@ -81,7 +81,7 @@ const MandatorySection = () => {
         {/* Final Note */}
         <p className="text-gray-600 max-w-3xl mx-auto text-md leading-relaxed mb-10">
           This mandate is grounded in Section 29 of the Companies Act and Rule 9B of the PAS Rules.
-          The statutory deadline for most private companies has already passed.
+          The statutory deadline for most private companies has already passed
         </p>
 
         {/* CTA Button */}

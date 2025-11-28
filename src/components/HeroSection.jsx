@@ -8,20 +8,20 @@ export default function Hero() {
       <div className="max-w-[1200px] mx-auto px-8 grid md:grid-cols-2 gap-12 items-center">
         {/* Left Content */}
         <div className="z-10">
-          <h1 className="text-3xl md:text-5xl font-bold leading-tight mb-6 text-gray-900">
+          <h1 className="text-3xl md:text-5xl font-extrabold leading-tight mb-6 text-gray-900">
             Dematerialise Your Company's Securities Securely Under Rule 9B
           </h1>
           
           <p className="text-gray-700 text-lg mb-2">
-            We guide private companies to meet Rule 9B and MCA demat requirements on time.
+            We guide private companies to meet Rule 9B and MCA demat requirements on time
           </p>
           
           <p className="text-gray-600 text-lg mb-8">
-            Fast, accurate and regulator-ready dematerialisation across equity, preference shares, debentures, warrants and other securities.
+            Fast, accurate and regulator-ready dematerialisation across equity, preference shares, debentures, warrants and other securities
           </p>
 
           <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4 mb-8 text-gray-800 text-sm font-medium">
-            If your demat compliance is overdue, complete it now to avoid penalties and operational hurdles.
+            If your demat compliance is overdue, complete it now to avoid penalties and operational hurdles
           </div>
           
           <div className="flex gap-6 items-center">

@@ -14,7 +14,7 @@ const ServicesSection = () => {
         {/* Sub-head */}
         <p className="text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed mb-16">
           Demat is both a legal requirement and a governance advantage. Completing it strengthens 
-          compliance, transparency and investor readiness.
+          compliance, transparency and investor readiness
         </p>
 
         {/* Cards */}
@@ -33,7 +33,7 @@ const ServicesSection = () => {
               Avoid Penalties & Compliance Blocks
             </h3>
             <p className="text-gray-600 text-base leading-relaxed">
-              Non-compliance under Section 450 blocks actions like issuing securities, buybacks and rights issues.
+              Non-compliance under Section 450 blocks actions like issuing securities, buybacks and rights issues
             </p>
           </div>
 
@@ -50,7 +50,7 @@ const ServicesSection = () => {
               Enable A Digital Cap Table
             </h3>
             <p className="text-gray-600 text-base leading-relaxed">
-              A complete digital demat system accelerates diligence, funding and audit processes.
+              A complete digital demat system accelerates diligence, funding and audit processes
             </p>
           </div>
 
@@ -67,7 +67,7 @@ const ServicesSection = () => {
               Use The MCA Window Wisely
             </h3>
             <p className="text-gray-600 text-base leading-relaxed">
-              Non-small companies are past the deadline — later transitions get 18 months from year-end to comply.
+              Non-small companies are past the deadline — later transitions get 18 months from year-end to comply
             </p>
           </div>
 

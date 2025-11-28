@@ -22,7 +22,7 @@ const Footer = () => {
               />
             </div>
             <p className="text-sm leading-6 text-gray-600">
-              Accreditation and compliance, made simple and secure.
+              Accreditation and compliance, made simple and secure
             </p>
 
             {/* Social Icons */}
@@ -73,7 +73,7 @@ const Footer = () => {
 
         {/* Bottom Section */}
         <div className="mt-12 border-t pt-6 flex flex-col md:flex-row justify-between items-center text-gray-600">
-          <p className="text-xs md:text-sm text-center md:text-left">© 2025 taghash Pvt Ltd. All rights reserved.</p>
+          <p className="text-xs md:text-sm text-center md:text-left">© 2025 taghash Pvt Ltd. All rights reserved</p>
 
           <div className="flex gap-6 mt-4 md:mt-0 justify-center text-sm">
             <a href="#" className="hover:text-blue-600 transition">Privacy</a>
